@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/public/css/main.css" type="text/css"/>
+    <title>My Personal Website: {{title}}</title>
+</head>
+<body>
+    <header>
+        <div class="icon">
+            {{!-- <img src="#" alt="Project_Bat"> --}}
+            <h1>Project Bat</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="link-list">
+                {{!-- <li id="link1"><a href="/">Home</a></li> --}}
+                <li id="link1"><a href="/aboutme">About Me</a></li>
+                <li id="link2"><a href="/education">Education</a></li>
+                <li id="link3"><a href="/skills">Skillset</a></li>
+                <li id="link4"><a href="/experience">Experience</a></li>
+                <li id="link5"><a href="/projects">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+</body>
+</html>
