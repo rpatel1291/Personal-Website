@@ -6,7 +6,7 @@ const projectRoutes = require('./projects')
 
 const constructorMethod = app => {
     app.get('/', (req, res) => {
-        res.render('aboutme', { title: "Home" })
+        res.render('home', { title: "Home" })
     })
     app.get('/aboutme', aboutMeRoutes)
     app.get('/education', educationRoutes)
