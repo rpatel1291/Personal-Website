@@ -1,3 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: black;
+}
+
+.icon {
+    position: relative;
+    float: left;
+    height: inherit;
+    width: 40%;
+    text-align: center;
+    /* padding: 10px; */
+    border: white solid 1px;
+    ;
+}
+
+h1 {
+    margin: 2%;
+    color: white;
+    font-variant: small-caps;
+}
+
+.navbar {
+    position: relative;
+    /* top: 20%; */
+    float: right;
+    height: inherit;
+    width: 60%;
+    bottom: 60px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.link-list {
+    width: inherit;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    text-align: center;
+    padding: 2%;
+    margin: 1% auto;
+}
+
+a {
+    text-decoration-line: none;
+    font-variant: small-caps;
+}
+
+main {
+    position: absolute;
+    top: 60px;
+    width: 960px;
+    margin: 0 auto;
+    border: blue 1px solid
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+
 /* body {
     background-color: #d7cec7;
 }
@@ -6,42 +90,46 @@ header {
     background-color: white;
     width: 100%;
     height: 50px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-}
 
+position: fixed;
+top: 0;
+left: 0;
+z-index: 9999;
+
+}
 .icon {
-    float: left;
-    height: 50px;
     width: 40%;
-    min-width: 100px;
 }
-
+.left {
+    float: left
+}
+img {
+    float: left;
+    height: 40px;
+    width: 50px;
+    border: 1px solid black;
+}
 img {
     height: 50px;
     font-size: 40px;
 }
-
 h1 {
+    border: 1px black solid;
     position: relative;
     margin: 0px;
     padding: 5px;
     text-align: center;
     font-variant: small-caps;
+    float: right;
 }
-
 .navbar {
     float: right;
     height: 50px;
     width: 60%;
 }
-
 .clear {
     clear: both;
 }
-
 nav li {
     display: inline-flex;
     vertical-align: middle;
@@ -50,37 +138,31 @@ nav li {
     text-align: center;
     padding: 5px;
 }
-
-
 #link1 {
     margin-left: 2%;
     margin-right: 2%;
 }
-
 #link2,
 #link3,
 #link4 {
     margin-right: 2%;
     margin-left: 2%;
 }
-
 #link5 {
     margin-left: 2%;
 }
-
 a {
     text-decoration: none;
     color: hsl(26, 17%, 81%);
     text-align: center;
 }
-
 li:hover,
 a:hover {
     background-color: hsl(334, 17%, 71%);
     color: hsl(0, 0%, 34%);
 }
-
 main {
     margin: 60px;
     position: relative;
-} */
+}
+*/
