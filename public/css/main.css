@@ -20,7 +20,7 @@ header {
     width: 40%;
     text-align: center;
     /* padding: 10px; */
-    border: white solid 1px;
+    border-right: white solid 1px;
     ;
 }
 
@@ -59,6 +59,20 @@ li {
 a {
     text-decoration-line: none;
     font-variant: small-caps;
+    color: blue;
+}
+
+a:hover {
+    /*Add something*/
+}
+
+a:visited {
+    color: blue;
+}
+
+#undergrad,
+#graduate {
+    visibility: hidden;
 }
 
 main {
