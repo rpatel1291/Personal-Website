@@ -4,6 +4,12 @@
     max-width: 100%;
 }
 
+body {
+    background-image: url('/public/img/apple-apple-device-design-285814.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header {
     top: 0px;
     left: 0px;
@@ -26,8 +32,9 @@ header {
 
 h1 {
     margin: 2%;
-    color: white;
+    color: rgba(255, 255, 255, 0.281);
     font-variant: small-caps;
+    text-shadow: 1px 1px #F9BD02;
 }
 
 .navbar {
@@ -57,10 +64,11 @@ li {
 }
 
 a {
-    font-size: 16px;
+    font-size: 18px;
     text-decoration-line: none;
     font-variant: small-caps;
-    color: white;
+    color: #F9BD02;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.281);
 }
 
 a:hover {
@@ -68,16 +76,14 @@ a:hover {
 }
 
 a:visited {
-    color: white;
+    color: #F9BD02;
 }
 
 main {
     position: absolute;
     top: 60px;
     width: 80%;
-    margin: 0 auto;
     border: blue 1px solid;
-    height: 100px;
     overflow: auto;
     left: 10%;
     right: 10%;
@@ -89,7 +95,8 @@ footer {
     left: 0;
     bottom: 0;
     background: #192231;
-    color: white;
+    color: rgba(255, 255, 255, 0.281);
+    text-shadow: 1px 1px #F9BD02;
     z-index: 9999;
     position: fixed;
 }
@@ -113,4 +120,14 @@ h4 {
     position: relative;
     left: 50%;
     right: 50%;
+}
+
+#copyright {
+    padding-top: 10px;
+}
+
+#connect {
+    width: 30px;
+    resize: both;
+    border-radius: 50%;
 }
