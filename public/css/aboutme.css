@@ -1,0 +1,50 @@
+div#aboutme-div {
+    background-color: rgba(245, 245, 220, 0.616);
+    padding: 30px;
+}
+
+h2#aboutme-h2 {
+    text-align: center;
+    text-shadow: 1px 1px #F9BD02;
+    text-decoration: underline;
+    /* border: 1px black solid; */
+    padding: 10px 0px;
+    font-variant: small-caps;
+}
+
+section#aboutme-section {
+    max-width: 100%;
+    padding: 15px 0;
+    /* border: 1px black solid; */
+}
+
+article.aboutme-image {
+    float: left;
+    width: 50%;
+}
+
+img#aboutme-self {
+    width: 400px;
+    border-radius: 15%;
+    padding: 10px 20px;
+    background-color: #3c3c3c8a;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+article.aboutme-text {
+    float: right;
+    width: 50%;
+}
+
+h3#aboutme-text-h3 {
+    text-align: center;
+}
+
+p#aboutme-text-p {
+    text-indent: .5in;
+}
+
+div#aboutme-footer {
+    height: 60px;
+}

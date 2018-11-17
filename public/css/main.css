@@ -8,6 +8,7 @@ body {
     background-image: url('/public/img/apple-apple-device-design-285814.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: auto;
 }
 
 header {
@@ -83,7 +84,7 @@ main {
     position: absolute;
     top: 60px;
     width: 80%;
-    border: blue 1px solid;
+    border: black 2px solid;
     overflow: auto;
     left: 10%;
     right: 10%;
@@ -93,7 +94,7 @@ footer {
     /* position: relative; */
     width: 100%;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     background: #192231;
     color: rgba(255, 255, 255, 0.281);
     text-shadow: 1px 1px #F9BD02;
