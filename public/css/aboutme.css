@@ -1,6 +1,8 @@
 div#aboutme-div {
     background-color: rgba(245, 245, 220, 0.616);
     padding: 1% 1.5%;
+    /* width: inherit; */
+    /* overflow: auto; */
 }
 
 h2#aboutme-h2 {
@@ -36,13 +38,14 @@ img#aboutme-self {
     border-radius: 15%;
     padding: 2% 2%;
     background-color: #3c3c3c8a;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 10%;
 }
 
 article.aboutme-text {
     float: right;
     width: 50%;
+    height: inherit;
     background-color: #ffffff9a;
     padding: 2% 0;
     margin-top: 1%;
@@ -54,11 +57,12 @@ span#aboutme-span {
 }
 
 p#aboutme-text-p {
-    text-align: justify;
+    /* text-align: ; */
     width: 80%;
     margin: 2% 10%;
 }
 
-div#aboutme-footer {
+
+/* div#aboutme-footer {
     height: 2.5%;
-}
+} */
