@@ -6,3 +6,11 @@ div#education-div {
 h2 {
     text-shadow: .05em .05em #F9BD02;
 }
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
