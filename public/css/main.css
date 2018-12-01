@@ -1,7 +1,115 @@
 * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #778899;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    /* margin-top: 1em; */
+    background-color: #192231;
+    z-index: 9999;
+}
+
+h1 {
+    color: rgba(255, 255, 255, .281);
+    font-variant: small-caps;
+    text-shadow: .1rem .1rem #F9bd02;
+    margin-top: .25em;
+}
+
+nav ul {
+    margin: -.25em auto 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: .5rem;
+}
+
+nav a {
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .7rem;
+    padding: .25rem;
+    color: #F9bd02;
+    text-shadow: .1rem .1rem rgba(255, 255, 255, .281);
+}
+
+nav a:hover,
+nav a:focus {
+    color: #fff;
+    text-shadow: .1rem .1rem rgba(255, 255, 255, .281);
+}
+
+main {
+    position: relative;
+    top: 6em;
+    /* background-image: url(../img/apple-apple-device-design-285814.jpg); */
+    /* background-size: cover; */
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* div.prefooter {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 20em;
+} */
+
+footer {
+    position: relative;
+    top: 6em;
+    background-color: #192231;
+    z-index: 9999;
+}
+
+.foot-mid {
+    margin: 0 auto;
+    color: #F9bd02;
+    text-shadow: .1rem .1rem rgba(255, 255, 255, .281);
+}
+
+.contact {
+    margin: 0 auto;
+}
+
+div ul {
+    margin: 0;
+    margin-left: -1em;
+    list-style: none;
+}
+
+div li {
+    display: inline-block;
+}
+
+img#connect {
+    border-radius: 50%;
+    max-width: 2rem;
+}
+
+
+/* * {
     margin: 0;
     padding: 0;
-    /* max-width: 100%; */
 }
 
 body {
@@ -27,7 +135,6 @@ header {
     height: inherit;
     width: 40%;
     text-align: center;
-    /* padding: 10px; */
     border-right: white solid 1px;
 }
 
@@ -97,7 +204,6 @@ div.prefooter {
 }
 
 footer {
-    /* position: relative; */
     width: 100%;
     left: 0;
     bottom: 0;
@@ -137,4 +243,4 @@ h4 {
     width: 30px;
     resize: both;
     border-radius: 50%;
-}
+} */

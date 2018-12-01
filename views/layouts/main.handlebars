@@ -3,16 +3,17 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=decive-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="/public/css/main.css" type="text/css"/>
     <title>Ravi Patel :: CV - {{title}}</title>
 </head>
 <body>
     <header>
         <div class="icon">
-            {{!-- <img src="#"> --}}
             <h1>Project Bat</h1>
         </div>
-        <nav class="navbar">
+        <nav class="nav justify-content-center|justify-content-end">
             <ul class="link-list">                
                 <li id="link1"><a href="/aboutme">About Me</a></li>
                 <li id="link2"><a href="/education">Education</a></li>
@@ -22,17 +23,14 @@
             </ul>
         </nav>
     </header>
+
     <main>
         {{{body}}}
     </main>
 
-    <div class="prefooter">
-
-    </div>
-
     <footer>
         <div id="copyright">
-            <p class="foot-mid">&copy;2018. Ravi Patel.</p>
+            <p class="foot-mid"><strong>&copy;2018. Ravi Patel.</strong></p>
         </div>
         <div class="contact">
             <ul class="social foot-mid">
@@ -43,5 +41,6 @@
             </ul>
         </div>
     </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
