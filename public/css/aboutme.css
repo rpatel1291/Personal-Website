@@ -31,7 +31,8 @@ section#aboutme-section {
 
 article.aboutme-image {
     /* float: left; */
-    width: 100%;
+    width: 40%;
+    margin: 0 auto;
 }
 
 img#aboutme-self {
@@ -61,7 +62,7 @@ span#aboutme-span {
 p#aboutme-text-p {
     width: 80%;
     margin: 2% 10%;
-    font-size: .75em;
+    font-size: 1em;
     text-align: justify;
     text-indent: 1em;
 }
