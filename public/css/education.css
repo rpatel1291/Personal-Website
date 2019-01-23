@@ -9,6 +9,7 @@
         font-size: 2.5em;
         padding-top: .5em;
         font-variant: small-caps;
+        text-decoration: underline;
     }
     
     h3 {
@@ -24,6 +25,7 @@
         margin: 0 1em;
         font-variant: small-caps;
         font-size: 1em;
+        border-color: #778899;
     }
     
     p.school-location,
@@ -64,15 +66,47 @@
     
     article {
         position: relative;
-        top: 1em;
+        top: 1.5em;
+    }
+    
+    article.education-undergrad {
+        background: linear-gradient(.25turn, #778899, #FFF, #778899);
+        border-radius: 1em;
+        width: 80%;
+        padding: 3em 0 2em;
+        margin: 0 auto;
+        text-shadow: #F9BD02 1px 1px;
+        top: 2em;
     }
     
     article.education-graduate {
         position: relative;
-        top: -55em;
+        top: -65em;
+        background: linear-gradient(.25turn, #778899, #FFF, #778899);
+        border-radius: 1em;
+        width: 80%;
+        padding: 5em 0 10em;
+        margin: 0 auto;
+        text-shadow: #F9BD02 1px 1px;
     }
     
     footer {
         position: relative;
         /* top: 18em; */
+    }
+    
+    button:hover {
+        animation-name: background-color;
+        animation-duration: 500ms;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes button_hover {
+        0% {
+            background-color: #FFF;
+        }
+        100% {
+            color: white;
+            background-color: black;
+        }
     }
