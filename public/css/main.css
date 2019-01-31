@@ -6,7 +6,9 @@ body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: #778899c9;
+    /* background-color: #778899c9; */
+    background-image: url("/public/img/apple-apple-device-design-285814.jpg");
+    background-repeat: none;
 }
 
 header {
