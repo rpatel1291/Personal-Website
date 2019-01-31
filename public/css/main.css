@@ -87,7 +87,7 @@ footer {
     text-shadow: .1rem .1rem rgba(255, 255, 255, .281);
 }
 
-#contact {
+.contact {
     margin-left: -2em;
 }
 
@@ -105,7 +105,7 @@ div li {
     display: inline-block;
 }
 
-img#connect {
+img.connect {
     border-radius: 50%;
     max-width: 2rem;
 }
