@@ -20,6 +20,7 @@
         "express": "^4.16.4",
         "express-handlebars": "^3.0.0",
         "handlebars": "^4.0.12",
+        "nodemon": "^1.18.9",
         "react": "^16.6.1",
         "react-dom": "^16.6.1",
         "reactstrap": "^6.5.0"
