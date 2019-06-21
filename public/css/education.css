@@ -88,11 +88,10 @@
         margin: 0 auto;
         text-shadow: #F9BD02 1px 1px;
     }
-    
-    footer {
+    /* footer {
         position: relative;
-        /* top: 18em; */
-    }
+        /* top: 18em; 
+    } */
     
     button:hover {
         animation-name: background-color;
