@@ -81,6 +81,7 @@ footer {
     top: 6em;
     background-color: #192231;
     z-index: 9999;
+    padding: .5em 0;
 }
 
 .foot-mid {
