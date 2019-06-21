@@ -23,7 +23,7 @@ li#skill-item {
     display: block;
 }
 
-section {
+section#skills-section {
     background: linear-gradient(.25turn, #778899, #FFF, #778899);
     width: 80%;
     margin: 3em auto 1em;
