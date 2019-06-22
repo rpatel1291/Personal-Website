@@ -11,13 +11,14 @@
         font-variant: small-caps;
         text-decoration: underline;
     }
-    
-    h3 {
+    /* h3 {
         text-decoration: underline;
-    }
+    } */
     
     h3.school-name {
         margin-bottom: -.2em;
+        text-decoration: underline;
+        padding: 1em;
     }
     
     button {
