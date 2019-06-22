@@ -13,7 +13,10 @@ h2 {
     text-decoration: underline;
 }
 
-h3 {
+h3#web-dev-title,
+h3#oop-title,
+h3#dbms-title,
+h3#statistical-title {
     font-weight: 400;
     font-variant: small-caps;
     text-decoration: underline;
@@ -25,10 +28,9 @@ li#skill-item {
 }
 
 section#skills-section {
-    background: linear-gradient(.25turn, #778899, #FFF, #778899);
+    background: linear-gradient(.25turn, #77889969, #FFF, #77889969);
     width: 80%;
     margin: 3em auto 1em;
-    ;
     padding: 3em 1em;
     border-radius: 1em;
 }
