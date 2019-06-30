@@ -76,7 +76,7 @@
         width: 60%;
         padding: 3em 0 2em;
         margin: 0 auto;
-        text-shadow: #F9BD02 1px 1px;
+        /* text-shadow: #F9BD02 1px 1px; */
         top: 2em;
     }
     
@@ -89,6 +89,11 @@
         width: 60%;
         padding: 5em 0 10em;
         margin: 0 auto;
+        /* text-shadow: #F9BD02 1px 1px; */
+    }
+    
+    h3.school-name,
+    span.course-title {
         text-shadow: #F9BD02 1px 1px;
     }
     /* footer {
