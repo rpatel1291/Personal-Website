@@ -2,7 +2,7 @@ div#experience-div {
     margin-top: 1em;
     padding: 1em;
     width: inherit;
-    background-color: #ffffff4b;
+    /* background-color: #ffffff4b; */
     text-shadow: .07em .07em #ddd;
 }
 
@@ -66,9 +66,19 @@ li.duty-task {
 }
 
 section#experience-section {
-    background: linear-gradient(.25turn, #778899ee, #eee, #778899ee);
+    /* background: linear-gradient(.25turn, #778899ee, #eee, #778899ee); */
     width: 80%;
     margin: 3em auto 1em;
-    padding: 3em 1em;
+    /* padding: 3em 1em; */
+    /* border-radius: 1em; */
+}
+
+article#experience1,
+article#experience2,
+article#experience3 {
+    background: linear-gradient(.5turn, #778899ff, #ffffff, #778899ff);
+    /* background-color: #ffffffd0; */
+    border: #000000d0 solid .4em;
+    box-shadow: #ffffffd0 .3em .3em;
     border-radius: 1em;
 }

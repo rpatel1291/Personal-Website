@@ -2,7 +2,7 @@ div#skills-div {
     margin-top: 1em;
     padding: 1em;
     width: inherit;
-    background-color: #ffffff4b;
+    /* background-color: #ffffff4b; */
 }
 
 h2 {
@@ -28,7 +28,8 @@ li#skill-item {
 }
 
 section#skills-section {
-    background: linear-gradient(.25turn, #77889969, #FFF, #77889969);
+    background: linear-gradient(.33turn, #77889969, #FFF, #77889969);
+    border: #000000d0 solid .4em;
     width: 80%;
     margin: 3em auto 1em;
     padding: 3em 1em;

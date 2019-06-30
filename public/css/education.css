@@ -1,7 +1,7 @@
     div#education-div {
         margin-top: 1em;
         width: inherit;
-        background-color: #ffffff4b;
+        /* background-color: #ffffff4b; */
     }
     
     h2 {
@@ -71,8 +71,9 @@
     
     article.education-undergrad {
         background: linear-gradient(.25turn, #77889969, #FFF, #77889969);
+        border: #000000d0 solid .4em;
         border-radius: 1em;
-        width: 80%;
+        width: 60%;
         padding: 3em 0 2em;
         margin: 0 auto;
         text-shadow: #F9BD02 1px 1px;
@@ -83,8 +84,9 @@
         position: relative;
         top: -63em;
         background: linear-gradient(.25turn, #77889969, #FFF, #77889969);
+        border: #000000d0 solid .4em;
         border-radius: 1em;
-        width: 80%;
+        width: 60%;
         padding: 5em 0 10em;
         margin: 0 auto;
         text-shadow: #F9BD02 1px 1px;
