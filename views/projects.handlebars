@@ -1,1 +1,61 @@
-<h2>My Projects</h2>
+<link href="/public/css/projects.css" type="text/css" rel="stylesheet">
+
+<div id="projects-div">
+    <h2>My Projects</h2>
+    <hr>
+
+    <section id="section-projects" class="row">
+        <article id="project1" class="col-sm-12 col-md-6 col-lg-6">
+            <div class="project-title-details">
+                <h3 class="project-title"><a href="https://github.com/rpatel1291/Santander-Customer-Transaction-Prediction">Santander Customer Transaction Prediction</a></h3>
+                <p class="project-code"><a href="https://github.com/rpatel1291/Santander-Customer-Transaction-Prediction/blob/master/CS583_Kaggle_Project.ipynb">Link to code.</a></p>
+                <p class=""><strong>Keyword:</strong> Python, Pandas, SciPy, Keras, Kaggle</p>
+            </div>
+            <div class="project-description">
+                <h4 class="project-objective">Objective</h4>
+                <p class="project-objective-detail">
+                    During March to May 2019, Kaggle held a competition in which people were asked to help identify which customers will make a specific transation. The data provided 
+                    for this compeition will be three CSV files (1 Traininig and Testing data, and 1 sample solution ). The traininig data file contained two hundered thousand rows and two hundered and two columns.
+                    While the testing data file contained two hundred thousand rows and two hundred and one columns. The only columns that held descriptive labels were ID and target(only found in training). The sample solution
+                    shows how the result needs to be formatted for submission.  
+                </p>
+                <h4 class="project-solution">Approach/Solution</h4>
+                <div class="project-solution-detail">
+                    <p>
+                        Using Python's various libraries to import the training and testing data and create dataframes for each. For step one use the Pandas library to pre-process and wrangle the data. Next go through the exploratory 
+                    data analysis (EDA) for each column to get a better understanding if there are relationship between columns. After the EDA process, create a connected neural network model, using Keras, which takes in a 1x200 vector and has 3 dense layers.
+                    The model uses an Adamax optimizer of learning rate of 0.0001 and binary crossentropy loss function. 
+                    </p>
+                    <p>
+                        Once creating the model, test different methods to obtain the highest accuracy comparing the predicted values and actual values. The predicted values are found by using the model to predict values using the training data and compare the 
+                        result to the actual values given. The different methods used for this competition: train using the whole dataset (base case), split the training data into training and validation then train using the training then train again using the entire train data (attempt two),
+                        follow the kfold method of spliting the train data into 4 parts (3 train + 1 valid) training the model 4 times (attempt three), and finally using the stratified kfold method (attempt four). Out of the four attempts, the fourth attempt gives the highest accuracy; however, 
+                        there are many ways to improve the accuracy from the last attempt by making a more complex model or using another method. After submission, the actual accuracy of the chosen model and method was 0.84651.
+                    </p>
+                    <img id="prj1pic1" class="prj1pic" src="/public/img/prj1p1.png" alt="project 1 picture 1">
+                    <img id="prj1pic2" class="prj1pic" src="/public/img/prj1p2.png" alt="project 1 picture 2">
+                </div>
+            </div>
+        </article>
+        <article id="project2" class="col-sm-12 col-md-6 col-lg-6">
+            <div class="project-title-details">
+                <h3 class="project-title"><a href="#">Project 2</a></h3>
+                <p class="project-code"><a>Link to Code</a></p>
+                <p class=""><strong>Keyword:</strong> </p>
+            </div>
+            <div class="project-description">
+                <h4 class="project-objective">Objective</h4>
+                <p class="project-objective-detail">
+                    
+                </p>
+                <h4 class="project-solution">Approach/Solution</h4>
+                <p class="project-solution-detail">
+
+                </p>
+            </div>
+        </article>
+        
+    </section>
+
+
+</div>

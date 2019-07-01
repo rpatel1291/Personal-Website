@@ -1,0 +1,48 @@
+div#projects-div {
+    margin-top: 1em;
+    padding: 1em;
+    width: inherit;
+}
+h2 {
+    text-shadow: .05em .05em #F9BD02;
+    font-size: 2.5em;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+section#section-projects {
+    margin: 0 auto;
+}
+section#section-projects article{
+    margin-bottom:1em;
+    border:black .25em solid;
+    border-radius: 1em;
+    padding: 1.25em;
+    background: linear-gradient(.33turn, #77889969, #FFF, #77889969);
+}
+h3.project-title{
+    font-weight:700;
+    font-variant:small-caps;
+    text-decoration:underline;
+    text-shadow: -.1em -.1em #F9BD02;
+
+}
+
+h4.project-objective,
+h4.project-solution{
+    font-weight:bolder;
+    text-decoration: underline;
+}
+img.prj1pic {
+    width:50%;
+    height:20em;
+}
+img#prj1pic1{
+    float:left;
+    padding:1em;
+}
+img#prj1pic2{
+    float:right;
+    padding:1em;
+}
