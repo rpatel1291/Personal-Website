@@ -40,7 +40,8 @@ h4.project-solution {
 
 img.prj1pic,
 img.prj2pic,
-img.prj3pic {
+img.prj3pic,
+img.prj4pic {
     width: 50%;
     height: 20em;
 }
@@ -59,5 +60,10 @@ img#prj2pic2,
 img#prj2pic4,
 img#prj3pic2 {
     float: right;
+    padding: 1em;
+}
+
+img#prj4pic1,
+img#prj4pic2 {
     padding: 1em;
 }
