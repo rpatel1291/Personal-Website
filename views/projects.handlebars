@@ -30,7 +30,7 @@
                         Once creating the model, test different methods to obtain the highest accuracy comparing the predicted values and actual values. The predicted values are found by using the model to predict values using the training data and compare the 
                         result to the actual values given. The different methods used for this competition: train using the whole dataset (base case), split the training data into training and validation then train using the training then train again using the entire train data (attempt two),
                         follow the kfold method of spliting the train data into 4 parts (3 train + 1 valid) training the model 4 times (attempt three), and finally using the stratified kfold method (attempt four). Out of the four attempts, the fourth attempt gives the highest accuracy; however, 
-                        there are many ways to improve the accuracy from the last attempt by making a more complex model or using another method. After submission, the actual accuracy of the chosen model and method was 0.84651.
+                        there are many ways to improve the accuracy from the last attempt by making a more complex model or using another method. After submission, the actual accuracy of the chosen model and method was 0.84651. Below are a few sample images of the code but the full code can be found on the link above.
                     </p>
                     <img id="prj1pic1" class="prj1pic" src="/public/img/prj1p1.png" alt="project 1 picture 1">
                     <img id="prj1pic2" class="prj1pic" src="/public/img/prj1p2.png" alt="project 1 picture 2">
@@ -39,19 +39,51 @@
         </article>
         <article id="project2" class="col-sm-12 col-md-6 col-lg-6">
             <div class="project-title-details">
-                <h3 class="project-title"><a href="#">Project 2</a></h3>
-                <p class="project-code"><a>Link to Code</a></p>
+                <h3 class="project-title"><a href="https://github.com/rpatel1291/Classification">Classification</a></h3>
+                <p class="project-code"><a href="https://github.com/rpatel1291/Classification">Link to Code</a></p>
+                <p class=""><strong>Keyword:</strong> R, RStudio</p>
+            </div>
+            <div class="project-description">
+                <h4 class="project-objective">Objective</h4>
+                <p class="project-objective-detail">
+                    During the semester of Fall 2018, the final project for the course, Knowledge Discovery: Intro to Data Mining, was to find a Kaggle competition (past or active) and use the accompanying datasets to perform different methods of classification to which produced the highest accuracy. 
+                    The datasets included in the archived competition were training and testing. Inside each dataset were columns that held different types of values (string, dates, integers, floats, and nulls).
+                </p>
+                <h4 class="project-solution">Approach/Solution</h4>
+                <div class="project-solution-detail">
+                    <p>
+                        Using the R's various libraries to import the two datasets as dataframes. Once imported, the first step is to see what type of data the columns hold in the dataframe. Then check for any null values in any columns and if there are any remove the entire row. Once null value rows are
+                        removed it will be easier to apply the explorartory data analysis (EDA).    
+                    </p>
+                    <p>
+                        The next step before performing any of the classification methods is to convert all non-integer columns into a categorical columns. This basically means to have a integer represent a string, i.e. for gender column all "male" or "Male" will be replaced with 1 and all "female" or "Female" will be replaced with 2.
+                        For columns where it involves dates, you can categorize them in many ways such as number of years from a certain date or group them by years. When all columns are categorized or have no string type values, split the training dataset into training data and validation data.
+                    </p>
+                    <p>
+                        The different methods to test for accuracy  used were: Support Vector Machines, Random Forest, KNN, CART, and C50. For each method import the correct libraries and use the function with the correct data parameters with precise columns. Below are some images of results of the methods and code for each method can be found on the link above.
+                    </p>
+                    <img id="prj2pic1" class="prj2pic" src="/public/img/c50Results.PNG" alt="results of c50">
+                    <img id="prj2pic2" class="prj2pic" src="/public/img/cartResuts.PNG" alt="results of cart">
+                    <img id="prj2pic3" class="prj2pic" src="/public/img/rfResults.PNG" alt="results of rf">
+                    <img id="prj2pic4" class="prj2pic" src="/public/img/knnPerformance.PNG" alt="results of knn">
+                </div>
+            </div>
+        </article>
+        <article id="project2" class="col-sm-12 col-md-6 col-lg-6">
+            <div class="project-title-details">
+                <h3 class="project-title"><a href="#"></a></h3>
+                <p class="project-code"><a href="#">Link to Code</a></p>
                 <p class=""><strong>Keyword:</strong> </p>
             </div>
             <div class="project-description">
                 <h4 class="project-objective">Objective</h4>
                 <p class="project-objective-detail">
-                    
+                   
                 </p>
                 <h4 class="project-solution">Approach/Solution</h4>
-                <p class="project-solution-detail">
-
-                </p>
+                <div class="project-solution-detail">
+                    
+                </div>
             </div>
         </article>
         
